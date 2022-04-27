@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 3px;
+  background-color: black;
+}
+
+.button1 {
+  background-color: orange;
+  border: 0.2rem solid whitesmoke;
+  border-radius: 1rem;
+  color: white;
+  font-family: "Lobster", cursive;
+  transform: translate(1050%,-20%);
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("https://ik.imagekit.io/7qsdaruk7zf/olga-mikhel-opujNaGQDs4-unsplash_eMY4AfO-a.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650991800085");
+  background-size: 100% 100%;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 12vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  position: center;
+}
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: green;
+}
+
+
+.medium-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -30%);
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  color: yellowgreen;
+}
+
+.big-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: yellowgreen;
+}
+
+.small-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -30%);
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
+  color: yellowgreen;
+}
+
+
+.button2 {
+  background-color: orange;
+  border: 0.2rem solid whitesmoke;
+  border-radius: 1rem;
+  color: white;
+  font-family: "Lobster", cursive;
+  position: absolute;
+  top: 60%;
+  left: 4%;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.video {
+  background-size: cover;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
