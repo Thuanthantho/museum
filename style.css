@@ -13,6 +13,7 @@ main {
   top: 0;
   padding: 3px;
   background-color: black;
+  height: 100px;
 }
 
 .button1 {
@@ -21,7 +22,7 @@ main {
   border-radius: 1rem;
   color: white;
   font-family: "Lobster", cursive;
-  transform: translate(1050%,-20%);
+  transform: translate(450%,-10%);
   padding: 7px 10px;
   text-align: center;
   text-decoration: none;
@@ -30,35 +31,42 @@ main {
   cursor: pointer;
 }
 
+#logo_ticket {
+  height: 15%;
+  width: 15%;
+  margin-right: 0.5rem;
+}
+
+#logo_museum {
+  height: 80%;
+  transform: translate(300%,-90%);
+}
+
 .landing {
   min-height: 100vh;
   background: url("https://ik.imagekit.io/7qsdaruk7zf/olga-mikhel-opujNaGQDs4-unsplash_eMY4AfO-a.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650991800085");
   background-size: 100% 100%;
   padding: 0rem 5rem;
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 12vh;
+  min-height: 10vh;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
   position: center;
 }
+
 .nav-links li {
-  padding-left: 10rem;
+  padding-left: 13rem;
   font-size: 1.5rem;
   color: whitesmoke;
 }
-#logo {
-  font-family: "Lobster", cursive;
-  font-weight: lighter;
-  font-size: 2rem;
-  color: green;
-}
-
 
 .medium-text {
   position: absolute;
@@ -106,6 +114,14 @@ nav {
   display: inline-block;
   font-size: 2rem;
   cursor: pointer;
+}
+
+#business_hour {
+  font-size: 1.2rem;
+  font-family: "Lobster", cursive;
+  color: whitesmoke;
+  top: 80%;
+  position: absolute;
 }
 
 .video {
